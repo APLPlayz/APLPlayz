@@ -138,11 +138,12 @@ Users can also click on the Unignore button which replaces the Block button.
 * Remove command
   * ```!command remove !commandName```
 * User activated command for bits
-* *(Give thanks to someone who donates bits)
-!command edit !bits /me Thank you so much for the bitties $(touser) bleedPurple VirtualHug
+  * (Give thanks to someone who donates bits)
+  * ```!command add !bits /me Thank you so much for the bitties $(touser) bleedPurple VirtualHug```
 * Tells user in Twitch chat how many followers the streamer has at the time of use
-!command add !followers $(channel) has $(twitch $(channel) "{{followers}} followers!")
+  * ```!command add !followers $(channel) has $(twitch $(channel) "{{followers}} followers!")```
 * Gives a random number
-!command add !randNum $(eval Math.floor(Math.random() * 101))
+  * ```!command add !randNum $(eval Math.floor(Math.random() * 101))```
 * Vibe command
-!command add !vibeTest /me $(user) got a $(eval Math.floor(Math.random() * 101))% on their vibe test :O
+  * (Give's a random number and makes it with color)
+  * ```!command add !vibe /me $(user) got a $(eval Math.floor(Math.random() * 101))% on their vibe test :O```
