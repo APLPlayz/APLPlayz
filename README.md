@@ -8,29 +8,29 @@ Enjoy this list of Twitch Commands!
 * ```/mods``` - This command will display a list of all chat moderators for that specific channel
 * ```/vips``` - This command will display a list of VIPs for that specific channel
 * ```/color [colorname]``` - Allows you to change the color of your username.
- * Color Names Available: (Blue, Coral, DodgerBlue, SpringGreen, YellowGreen, Green, OrangeRed, Red, GoldenRod, HotPink, CadetBlue, SeaGreen, Chocolate, BlueViolet, and Firebrick)
+  * Color Names Available: (Blue, Coral, DodgerBlue, SpringGreen, YellowGreen, Green, OrangeRed, Red, GoldenRod, HotPink, CadetBlue, SeaGreen, Chocolate, BlueViolet, and Firebrick)
 * ```/block {username}``` - Allows you to block all messages from a specific user in chat and whispers
- * (In chat, users can also click on a username and then on the Block button on the user badge that appears)
+  * (In chat, users can also click on a username and then on the Block button on the user badge that appears)
 * ```/unblock {username}``` - This command will allow you to remove users from your block list that you previously added.
 Users can also click on the Unignore button which replaces the Block button.
 * ```/me ______``` - This command will remove the colon that typically appears after your chat name and italicize your message text
 * ```/disconnect``` - This command will simply disconnect you from the chat server.
- * To reconnect, simply refresh the page.
+  * To reconnect, simply refresh the page.
 * ```/w {username} ______``` - This command sends a private message to another user on Twitch.
 
 ## Commands for Broadcasters and all Moderators
 * ```/user {username}``` - This command opens a user’s profile card where channel moderators and streamers can share channel-specific moderation comments, see when the user made their account, and view that user's channel-specific chat, timeout, and ban history.
 * ```/timeout {username} [seconds]``` - This command allows you to temporarily ban someone from the chat room for 10 minutes by default.
- * (This will be indicated to yourself and the temporarily banned subject in chat on a successful temporary ban. A new timeout command will overwrite an old one)
- * (The command also supports banning for a specific set of time via the optional SECONDS value)
+  * (This will be indicated to yourself and the temporarily banned subject in chat on a successful temporary ban. A new timeout command will overwrite an old one)
+  * (The command also supports banning for a specific set of time via the optional SECONDS value)
 * ```/ban {username}``` - This command will allow you to permanently ban a user from the chat room.
- * (Can also do this by clicking the Cancel symbol either directly in chat or on the user badge which appears when clicking on a username.)
+  * (Can also do this by clicking the Cancel symbol either directly in chat or on the user badge which appears when clicking on a username.)
 * ```/unban {username}``` - This command will allow you to lift a permanent ban on a user from the chat room.
- * (You can also use this command to end a ban early; this also applies to timeouts)
+  * (You can also use this command to end a ban early; this also applies to timeouts)
 * ```/slow [seconds]``` - This command allows you to set a limit on how often users in the chat room are allowed to send messages (rate limiting).
 * ```/slowoff``` - This command allows you to disable slow mode if you had previously set it
 * ```/followers``` - This command allows you or your mods to restrict chat to all or some of your followers, based on how long they’ve followed
- * (From 0 minutes (all followers) to 3 months)
+  * (From 0 minutes (all followers) to 3 months)
 * ```/followersoff``` - This command will disable followers only mode if it was previously enabled on the channel.
 
 ## Commands for Channel Editor and Broadcaster
@@ -43,12 +43,12 @@ Users can also click on the Unignore button which replaces the Block button.
 * ```/raid {channel}``` - This command will send the viewer to another live channel
 * ```/unraid``` - This command will cancel the raid
 * ```/marker [description]``` - Adds a stream marker at the current timestamp.
- * (With an optional description, max 140 characters)
+  * (With an optional description, max 140 characters)
 
 ## Commands for Broadcaster
 * ```/mod {username}``` - This command will allow you to promote a user to a channel moderator allowing them to have access to all of the above commands and features
 * ```/unmod {username}``` - This command will allow you to demote an existing moderator back to viewer status
- * (Removing their moderator abilities)
+  * (Removing their moderator abilities)
 * ```/vip {username}``` - This command will grant VIP status to a user
 * ```/unvip {username}``` - This command willl revoke VIP status from a user.
 
